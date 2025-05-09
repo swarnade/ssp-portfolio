@@ -340,6 +340,37 @@ const projects = [
       "/assets/projects/sit-photography-club.jpeg",
     source_code_link: "https://github.com/sitphotographyclub/website",
     deployed_link: "https://www.sitphotography.club/",
+  },
+  {
+    name: "Virtual Gather",
+    description:
+      "Virtual Gather is a sleek and intuitive video conference website designed to facilitate seamless virtual meetings, conferences, and gatherings. Built with Django for the backend server, Agora API for real-time communication & HTML,CSS,JS for frontend .Virtual Gather offers a robust platform for users to connect and collaborate remotely.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Azure Vms",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image:
+      "/assets/projects/sit-photography-club.jpeg",
+    source_code_link: "https://github.com/sitphotographyclub/website",
+    deployed_link: "https://www.sitphotography.club/",
   }
 ];
 
