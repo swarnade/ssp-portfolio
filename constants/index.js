@@ -206,18 +206,6 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Data Science Intern",
-    company_name: "Indian Army",
-    icon: "/assets/company/indian-army.svg",
-    iconBg: "#E6DEDD",
-    date: "February 2025 - Present",
-    points: [
-      "Helped In Development of Power BI Dashboards.",
-      "Managed & Connnncted Dashboard Using Excel Withh 600+ Parameters.",
-      "Created a Offline Map System Using Denab & Vega Lite .",
-    ],
-  },
-  {
     title: "Full Stack Developer Intern",
     company_name: "Intern at IIT-DELHI",
     icon: "/assets/company/iit-delhi.svg",
