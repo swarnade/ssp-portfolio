@@ -206,27 +206,27 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at IIT-DELHI",
+    title: "MERN Developer Intern",
+    company_name: "IIT-DELHI",
     icon: "/assets/company/iit-delhi.svg",
     iconBg: "#E6DEDD",
-    date: "December 2024 - February 2025",
+    date: "Dec 2024- Feb 2025",
     points: [
-      "Worked a LMS System Using MongoDB , React JS , Node JS , Express JS.",
-      "Devloped Dashbaord For Both Employer & Employee.",
-      "Developed Various Kind Of Test Series For Students.",
+      "Designed and developed a comprehensive LMS using the MERN stack for efficient management and student engagement.",
+      "Implemented dynamic user roles, including Admin and SuperAdmin functionality, for streamlined platform control.",
+      "Enhanced the platform’s scalability and performance through optimized RESTful API design and responsive UI/UX"
     ],
   },
   {
-    title: "Web Developer Intern",
-    company_name: "Intern at DimensionLabs",
+    title: "Full Stack Developer",
+    company_name: "DimensionLabs",
     icon: "/assets/company/d-labs.svg",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "Aug 2023- Feb 2024",
     points: [
-      "Worked on a E-Commerce Website Using React JS & Wordpress",
-      "Developed a Dashboard For Owner",
-      "Developed a Payment Gateway Using Razorpay",
+      "Developed full-stack applications using React.js, Node.js, Express.js, and MongoDB for dynamic solutions.",
+      "Built and optimized full-fledged e-commerce platforms, including product management, secure payment integration",
+      "Collaborated with cross-functional teams to design RESTful APIs, enhance UI/UX, and improve site performance"
     ],
 
   },
@@ -239,128 +239,86 @@ const projects = [
   {
     name: "SSP Gemini",
     description:
-      "Here is SSP Gemini , An AI ChatBot Develped by Swarnadeep Saha Poddar , Powered By Google Gemini Pro/Pro Vision .",
+      "SSP Gemini is an AI-powered chatbot developed using HTML, CSS, JavaScript, and Google Gemini APIs. It provides real-time, context-aware responses, enhancing user engagement through personalized conversational interfaces.",
     tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "netlify",
-        color: "yellow-text-gradient",
-      },
+      { name: "HTML", color: "blue-text-gradient" },
+      { name: "CSS", color: "green-text-gradient" },
+      { name: "JavaScript", color: "pink-text-gradient" },
+      { name: "Google Gemini", color: "orange-text-gradient" },
+      { name: "Google Cloud", color: "yellow-text-gradient" }
     ],
-    image:
-      "/assets/projects/ssp-gemini.png",
+    image: "/assets/projects/ssp-gemini.png",
     source_code_link: "https://sspgemini.swarnadeepsahapoddar.in/",
-    deployed_link: "https://sspgemini.swarnadeepsahapoddar.in/",
+    deployed_link: "https://sspgemini.swarnadeepsahapoddar.in/"
   },
   {
     name: "Trip Blueprint",
     description:
-      "Welcome to Trip Blueprint, an AI-powered travel itinerary planner built with React. Trip Blueprint helps you create, customize, and visualize your travel plans seamlessly. By integrating the Gemini API and Google Maps API, it provides real-time data and interactive maps to enhance your travel planning experience. Perfect for travel enthusiasts who want a streamlined and personalized trip planning solution.",
+      "An intelligent travel planning platform leveraging the MERN stack (MongoDB, Express.js, React.js, Node.js) with Google Maps and Vertex AI for real-time route optimization. It offers personalized itineraries, location-based recommendations, and seamless navigation for a streamlined travel experience.",
     tags: [
-      {
-        name: "React JS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Google Gemini",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Google Cloud",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Netlify",
-        color: "yellow-text-gradient",
-      },
+      { name: "React JS", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "Express.js", color: "pink-text-gradient" },
+      { name: "MongoDB", color: "orange-text-gradient" },
+      { name: "Google Maps", color: "yellow-text-gradient" }
     ],
-    image:
-      "/assets/projects/trip-blueprint.png",
+    image: "/assets/projects/trip-blueprint.png",
     source_code_link: "https://github.com/swarnade/trip-blueprint",
-    deployed_link: "https://tripblueprint.swarnadeepsahapoddar.in/",
-  },
-  {
-    name: "SIT Photography Club",
-    description:
-      "Welcome to the SIT Photography Club, your gateway to exploring the world through the lens. Founded in July 2019, our club has grown to be a vibrant community of photography enthusiasts, guided by a shared passion for capturing moments that matter.",
-    tags: [
-      {
-        name: "React JS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "TypeScript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Github",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Netlify",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image:
-      "/assets/projects/sit-photography-club.jpeg",
-    source_code_link: "https://github.com/sitphotographyclub/website",
-    deployed_link: "https://www.sitphotography.club/",
+    deployed_link: "https://tripblueprint.swarnadeepsahapoddar.in/"
   },
   {
     name: "Virtual Gather",
     description:
-      "Virtual Gather is a sleek and intuitive video conference website designed to facilitate seamless virtual meetings, conferences, and gatherings. Built with Django for the backend server, Agora API for real-time communication & HTML,CSS,JS for frontend .Virtual Gather offers a robust platform for users to connect and collaborate remotely.",
+      "A real-time virtual meeting platform built with Django (backend), JavaScript (frontend), Agora, and WebRTC for ultra-low latency communication. It features spatial audio, dynamic room management, and seamless peer-to-peer connections for enhanced collaboration.",
     tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Django",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Azure Vms",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "yellow-text-gradient",
-      },
+      { name: "Django", color: "blue-text-gradient" },
+      { name: "JavaScript", color: "green-text-gradient" },
+      { name: "Agora", color: "pink-text-gradient" },
+      { name: "WebRTC", color: "orange-text-gradient" },
+      { name: "SQLite", color: "yellow-text-gradient" }
     ],
-    image:
-      "/assets/projects/sit-photography-club.jpeg",
-    source_code_link: "https://github.com/sitphotographyclub/website",
-    deployed_link: "https://www.sitphotography.club/",
+    image: "/assets/projects/virtual-gather.png",
+    source_code_link: "https://github.com/swarnade/virtual-gather",
+    deployed_link: "https://virtualgather.swarnadeepsahapoddar.in/"
+  },
+  {
+    "name": "RajRup Travels",
+    "description": "RajRup Travels is a tour operator specializing in destinations like Dooars, Sikkim, Darjeeling, Bhutan, Jaldapara, Garumara, Sundarbans, Haridwar, Digha, Vizag-Arakku, Rajasthan, and Puri. They offer comprehensive travel services, including flight and train bookings, ensuring hassle-free reservations at competitive prices.",
+    "tags": [
+      { "name": "Travel Agency", "color": "blue-text-gradient" },
+      { "name": "Tour Operator", "color": "green-text-gradient" },
+      { "name": "Booking Services", "color": "pink-text-gradient" }
+    ],
+    "image": "/assets/projects/rajrup-travels.png",
+    "source_code_link": "https://www.rajruptravels.co.in/",
+    "deployed_link": "https://www.rajruptravels.co.in/"
+  },
+  {
+    "name": "SIT Photography Club",
+    "description": "The SIT Photography Club is a student-run organization at Siliguri Institute of Technology, aiming to explore and capture the talents of SIT through photography. The club encourages students to express their creativity and passion for photography.",
+    "tags": [
+      { "name": "Photography", "color": "blue-text-gradient" },
+      { "name": "Student Club", "color": "green-text-gradient" },
+      { "name": "Creative Arts", "color": "pink-text-gradient" }
+    ],
+    "image": "/assets/projects/sit-photography-club.png",
+    "source_code_link": "https://github.com/swarnade/sitphotographyclub",
+    "deployed_link": "https://www.sitphotography.club/"
+  },
+  {
+    "name": "ICTDsC 2024",
+    "description": "The International Conference on Data Science and Communication (ICTDsC 2024) is organized by the Siliguri Institute of Technology. Scheduled for November 21-22, 2024, the conference aims to bring together academics and professionals to discuss cutting-edge developments in data science and communication. Accepted papers will be published in the Springer book series 'Lecture Notes in Networks and Systems' and are indexed in Scopus, SCImago, and DBLP.",
+    "tags": [
+      { "name": "Conference", "color": "blue-text-gradient" },
+      { "name": "Data Science", "color": "green-text-gradient" },
+      { "name": "Communication", "color": "pink-text-gradient" }
+    ],
+    "image": "/assets/projects/ictdsc-2024.png",
+    "source_code_link": "https://github.com/swarnade/ictdsc.in",
+    "deployed_link": "https://ictdsc.in/"
   }
 ];
+
 
 const socials = [
   {
