@@ -249,6 +249,21 @@ const testimonials = [
 ];
 
 const projects = [
+{
+  name: "SSP AI CLI",
+  description:
+    "SSP AI CLI is a lightweight, command-line–based AI assistant built using JavaScript and Google Gemini APIs. It delivers fast, context-aware responses directly in the terminal, enabling developers to interact with AI for queries, automation, and productivity without leaving the CLI environment.",
+  tags: [
+    { name: "JavaScript", color: "pink-text-gradient" },
+    { name: "Node.js", color: "green-text-gradient" },
+    { name: "Google Gemini API", color: "orange-text-gradient" },
+    { name: "Microsoft Azure", color: "blue-text-gradient" },
+    { name: "Google Cloud", color: "yellow-text-gradient" }
+  ],
+  image: "/assets/projects/sspai-cli.png",
+  source_code_link: "https://github.com/yourusername/ssp-ai-cli",
+  deployed_link: "https://www.npmjs.com/package/ssp-ai-cli"
+},
   {
     name: "SSP Gemini",
     description:
