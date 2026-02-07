@@ -205,6 +205,19 @@ const technologies = {
 };
 
 const experiences = [
+    {
+    title: "Software Engineer Intern",
+    company_name: "Philonet AI",
+    icon: "/assets/company/philonet-ai.png",
+    iconBg: "#E6DEDD",
+    date: "Nov 2025 - Present",
+    points: [
+      "Built a unified news application aggregating content from multiple sources including Google Trends, news websites, and YouTube to deliver real-time and breaking updates.",
+      "Developed & optimized core platform features enabling deep, real-time discussions and knowledge-driven social interactions",
+      "Developed scalable frontend components and backend services to support conversation rooms, feeds, and user engagement flows",
+      "Implemented features to save articles and videos for later reading, enabling personalized news consumption and quick access to trending insights."
+    ],
+  },
   {
     title: "MERN Developer Intern",
     company_name: "IIT-DELHI",
@@ -218,7 +231,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer",
+    title: "Full Stack Developer Intern",
     company_name: "DimensionLabs",
     icon: "/assets/company/d-labs.svg",
     iconBg: "#E6DEDD",
