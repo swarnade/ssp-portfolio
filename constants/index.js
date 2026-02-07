@@ -339,6 +339,7 @@ const socials = [
     icon: <GithubIcon />,
     link: "https://github.com/swarnade",
   },
+
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
@@ -354,6 +355,11 @@ const socials = [
     id: "Leetcode",
     icon: <LeetcodeIcon />,
     link: "https://www.leetcode.com/swarnadeepsahapoddar",
+  },
+    {
+    id: "github",
+    icon: <GithubIcon />,
+    link: "https://github.com/ssp-philonet",
   },
 ];
 
